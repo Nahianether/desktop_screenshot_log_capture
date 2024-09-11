@@ -1,0 +1,11 @@
+[package]
+name = "screen_s"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+screenshots = "0.8.10"
+libc = "0.2.158"
