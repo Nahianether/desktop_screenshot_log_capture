@@ -34,6 +34,7 @@ class ScreenshotCaptureState extends State<ScreenshotCapture> {
       await Future.delayed(interval);
       // await _captureScreenshot();
       takeAShot('D:\\Projects\\screenshot$i.png');
+      takeLog('D:\\Projects\\screenshot.png');
       i++;
     }
   }

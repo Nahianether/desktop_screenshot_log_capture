@@ -68,3 +68,9 @@ void takeAShot(String? s) {
   screenShot!(m);
   calloc.free(m);
 }
+
+void takeLog(String? s) {
+  final m = s.toString().toNativeUtf8();
+  screenShot!(m);
+  calloc.free(m);
+}

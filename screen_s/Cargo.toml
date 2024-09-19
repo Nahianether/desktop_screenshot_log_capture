@@ -9,3 +9,5 @@ crate-type = ["cdylib", "staticlib", "rlib"]
 [dependencies]
 screenshots = "0.8.10"
 libc = "0.2.158"
+windows = "0.58"
+wstring = "1.0"
